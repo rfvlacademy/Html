@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.container{
+    display:flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    flex-direction: row;
+
+}
+.width{
+    width: 90%;
+}
+.left-banner{
+    flex: 1;
+    text-align: center;
+}
+.rigth-banner{
+    flex: 5;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 12px;
+}
+
+
+
