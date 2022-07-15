@@ -6,6 +6,11 @@
 body {
   width: 100%;
   font-family: myFirstFont, Arial;
+  background-image: url("../assets/descarga.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #959CFF;
+
 }
 .container {
   display: flex;
@@ -21,11 +26,10 @@ body {
 
 .left-banner {
   flex: 1;
-  border-right: 1px solid rgba(0, 0, 0, 1);
-  margin-right: 21px;
-}
-.data {
   text-align: center;
+  border-right: 1px solid rgba(255, 0, 0, 0.5);
+  margin-right: 21px;
+
 }
 
 .rigth-banner {
@@ -34,13 +38,6 @@ body {
   text-align: justify;
   font-size: 12px;
 }
-.info,
-.habilidades {
-  text-align: justify;
-}
-.habilidades li {
-  text-align: left;
-}
 
 h2 {
   padding-top: 10px;
@@ -48,9 +45,4 @@ h2 {
   margin-block-end: 0em;
   font-weight: bold;
   font-style: italic;
-}
-.habilidades ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
