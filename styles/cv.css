@@ -1,0 +1,44 @@
+.container-xl {
+  margin-top: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.body {
+  width: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.card {
+  border: 0px;
+}
+
+.list-group-item.active {
+  background-color: white;
+  border-bottom: 1px solid black;
+  border-top: 0px;
+  color: black;
+  font-weight: bold;
+}
+.list-group-item {
+  border: 0px;
+}
+
+.left-panel {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.padding {
+  padding: 10px;
+}
+
+@media (max-width: 980px) {
+  .container-xl {
+    margin-top: 0px;
+  }
+}
