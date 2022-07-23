@@ -1,0 +1,35 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../font/Romanica.ttf");
+}
+
+.img {
+    text-align: center;
+}
+
+.img-round {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.separador {
+    padding-top: 50px;
+}
+
+.name {
+    text-align: justify;
+    font-family: myFirstFont, Arial;
+    border-left: 10px solid transparent;
+    padding: 15px;
+    border-image: url("../assets/border.png") 50 round;
+}
+
+.name h1 {
+    font-size: 4.5rem;
+}
+
+.border-point {
+    border-left: 3px solid black !important;
+}
+
+
